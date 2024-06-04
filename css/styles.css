@@ -362,6 +362,13 @@ width: calc((100% - 72px) / 4);
     background-color: #2e2f42;
     padding: 100px 0;
 }
+.container.footcontainer {
+    display: flex;
+    align-items: baseline;
+}
+.firstpartfoot {
+    margin-right: 120px;
+}
 .mainlogofoot {
     display: inline-block;
     font-family: "Raleway", sans-serif;
@@ -393,7 +400,29 @@ width: calc((100% - 72px) / 4);
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #fff;
+        color: #FFFFFF;
+        margin-bottom: 16px;
+}
+.socialmediasfoot {
+    display: flex;
+    gap: 16px;
+}
+.listmediafoot {
+    width: 40px;
+    height: 40px;
+}
+.footweb {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footweb:hover,
+.footweb:focus {
+    background-color: #31d0aa;
 }
 .secondheadernone {
     position: absolute;
